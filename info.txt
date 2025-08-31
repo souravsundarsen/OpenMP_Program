@@ -1,0 +1,31 @@
+Method 1:
+=========================================================
+To Compile an OpenMP Program
+--------------------------------------
+gcc -fopenmp omp1.c
+
+To Run an OpenMP Program
+--------------------------------------
+./a
+
+Method 2:
+=========================================================
+Go To Terminal Menu in Visual Studio --> Configure Default Build Task --> Select C/C++ compiler (A file named "tasks.json will open") 
+--> go to line number 10 and replace "-g" with "-fopenmp"
+
+"This setup for one time"
+
+Now to Run
+---------------------------------------
+./program_name_without_extension
+
+
+Important link for OpenMP
+---------------------------------------
+1. https://tildesites.bowdoin.edu/~ltoma/teaching/cs3225-GIS/fall17/Lectures/openmp.html
+
+2. https://curc.readthedocs.io/en/latest/programming/OpenMP-C.html
+
+3. https://people.math.sc.edu/Burkardt/c_src/openmp/openmp.html
+
+4. https://github.com/NCI900-Training-Organisation/Parallel-Programming-Using-OpenMP
